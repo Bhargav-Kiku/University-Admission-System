@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0a59c3c493a50b9076ebf61cdd03d6ed" label="Student ID Card" max_length="40" name="x_1920756_univer_0_student_id_card" type="collection">
+        <element label="Collection Date" max_length="40" name="collection_date" type="glide_date"/>
+        <element label="Collected By" max_length="100" name="collected_by" type="string"/>
+        <element label="Issue Date" max_length="40" name="issue_date" type="glide_date"/>
+        <element label="Admission Request" mandatory="true" max_length="32" name="admission_request" reference="x_1920756_univer_0_admission_request" type="reference"/>
+        <element display="true" label="Card Number" max_length="30" name="card_number" type="string"/>
+        <element default="queued" label="Print Status" mandatory="true" max_length="255" name="print_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Collected" sequence="3" value="collected"/>
+                <element inactive_on_update="false" label="Printing" sequence="1" value="printing"/>
+                <element inactive_on_update="false" label="Queued" sequence="0" value="queued"/>
+                <element inactive_on_update="false" label="Printed" sequence="2" value="printed"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <index name="index">
+            <element name="admission_request"/>
+        </index>
+    </element>
+</database>

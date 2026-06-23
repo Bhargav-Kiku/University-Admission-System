@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="46f43b6b93d9479076ebf61cdd03d691" label="Program" max_length="40" name="x_1920756_univer_0_program" type="collection">
+        <element display="true" label="Program Name" mandatory="true" max_length="100" name="program_name" type="string"/>
+        <element label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element label="Duration (Years)" mandatory="true" max_length="40" name="duration_years" type="integer"/>
+        <element label="Program Code" mandatory="true" max_length="20" name="program_code" type="string"/>
+        <element label="Fee Amount" max_length="40" name="fee_amount" type="decimal"/>
+    </element>
+</database>

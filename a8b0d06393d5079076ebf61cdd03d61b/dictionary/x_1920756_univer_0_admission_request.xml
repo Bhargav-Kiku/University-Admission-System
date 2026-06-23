@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d3b1518493e9c79076ebf61cdd03d696" label="Admission Request" max_length="40" name="x_1920756_univer_0_admission_request" type="collection">
+        <element default="javascript:new GlideDateTime().getYearLocalTime()" label="Intake Year" mandatory="true" max_length="40" name="intake_year" type="integer"/>
+        <element label="Student Number" max_length="30" name="student_number" type="string"/>
+        <element label="Email" mandatory="true" max_length="100" name="email" type="string"/>
+        <element label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Prefer Not to Say" sequence="2" value="prefer_not_to_say"/>
+            </choice>
+        </element>
+        <element label="Full Name" mandatory="true" max_length="100" name="full_name" type="string"/>
+        <element label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element default="draft" label="Status Field" mandatory="true" max_length="255" name="status_field" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Campus Tour" sequence="4" value="campus_tour"/>
+                <element inactive_on_update="false" label="Rejected" sequence="9" value="rejected"/>
+                <element inactive_on_update="false" label="Provisioning" sequence="7" value="provisioning"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Document Verification" sequence="2" value="document_verification"/>
+                <element inactive_on_update="false" label="Payment Pending" sequence="6" value="payment_pending"/>
+                <element inactive_on_update="false" label="Campus Tour Completed" sequence="5" value="Campus Tour Completed"/>
+                <element inactive_on_update="false" label="Completed" sequence="8" value="completed"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="3" value="pending_approval"/>
+            </choice>
+        </element>
+        <element label="Applicant User" max_length="32" name="applicant_user" reference="sys_user" type="reference"/>
+        <element label="ID Card Number" max_length="40" name="id_card_number" type="string"/>
+        <element label="University Email" max_length="100" name="university_email" type="string"/>
+        <element label="Intake Semester" mandatory="true" max_length="40" name="intake_semester" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Spring" sequence="0" value="spring"/>
+                <element inactive_on_update="false" label="Summer" sequence="1" value="summer"/>
+                <element inactive_on_update="false" label="Fall" sequence="2" value="fall"/>
+            </choice>
+        </element>
+        <element label="Assigned Agent" max_length="32" name="assigned_agent" reference="sys_user" type="reference"/>
+        <element label="Phone" mandatory="true" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="Program" mandatory="true" max_length="32" name="program" reference="x_1920756_univer_0_program" type="reference"/>
+        <index name="index">
+            <element name="applicant_user"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_agent"/>
+        </index>
+        <index name="index3">
+            <element name="program"/>
+        </index>
+    </element>
+</database>

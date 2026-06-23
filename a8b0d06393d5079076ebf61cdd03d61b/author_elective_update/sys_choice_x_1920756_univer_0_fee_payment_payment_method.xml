@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_method" table="x_1920756_univer_0_fee_payment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>payment_method</element>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>payment_method</sys_name>
+            <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+            <sys_update_name>sys_choice_x_1920756_univer_0_fee_payment_payment_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cash</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:48</sys_updated_on>
+            <value>cash</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Card</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:48</sys_updated_on>
+            <value>card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UPI</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:48</sys_updated_on>
+            <value>upi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bank Transfer</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:48</sys_updated_on>
+            <value>bank_transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scholarship</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_fee_payment</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 17:05:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 17:05:49</sys_updated_on>
+            <value>scholarship</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

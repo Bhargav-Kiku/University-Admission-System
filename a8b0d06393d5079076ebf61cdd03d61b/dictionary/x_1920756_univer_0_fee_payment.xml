@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="80ef3e0893650b9076ebf61cdd03d684" label="Fee Payment" max_length="40" name="x_1920756_univer_0_fee_payment" type="collection">
+        <element label="Amount" mandatory="true" max_length="38" name="amount" type="decimal"/>
+        <element label="Payment Date" max_length="40" name="payment_date" type="glide_date"/>
+        <element label="Admission Request" mandatory="true" max_length="32" name="admission_request" reference="x_1920756_univer_0_admission_request" type="reference"/>
+        <element default="pending" label="Payment Status" mandatory="true" max_length="255" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Paid" sequence="1" value="paid"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Waived" sequence="3" value="waived"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+        <element default="False" label="Receipt Sent" max_length="255" name="receipt_sent" type="boolean"/>
+        <element label="Transaction Reference" max_length="100" name="transaction_reference" type="string"/>
+        <element display="true" label="Invoice Number" max_length="30" name="invoice_number" type="string"/>
+        <element label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scholarship" sequence="4" value="scholarship"/>
+                <element inactive_on_update="false" label="UPI" sequence="2" value="upi"/>
+                <element inactive_on_update="false" label="Card" sequence="1" value="card"/>
+                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="Bank Transfer" sequence="3" value="bank_transfer"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="admission_request"/>
+        </index>
+    </element>
+</database>
