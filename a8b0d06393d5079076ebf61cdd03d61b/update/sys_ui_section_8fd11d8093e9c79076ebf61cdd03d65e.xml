@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8fd11d8093e9c79076ebf61cdd03d65e" sys_domain="global" table="x_1920756_univer_0_admission_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:33</sys_created_on>
+            <sys_id>fae02e8893a10b9076ebf61cdd03d63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:34</sys_created_on>
+            <sys_id>cfe02e8893a10b9076ebf61cdd03d63d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:34</sys_created_on>
+            <sys_id>8be02e8893a10b9076ebf61cdd03d63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_birth</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:34</sys_created_on>
+            <sys_id>57e02e8893a10b9076ebf61cdd03d63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:35</sys_created_on>
+            <sys_id>13e02e8893a10b9076ebf61cdd03d640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:35</sys_created_on>
+            <sys_id>dbe02e8893a10b9076ebf61cdd03d640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:35</sys_created_on>
+            <sys_id>97e02e8893a10b9076ebf61cdd03d641</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:35</sys_created_on>
+            <sys_id>63e02e8893a10b9076ebf61cdd03d642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>program</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:36</sys_created_on>
+            <sys_id>2fe02e8893a10b9076ebf61cdd03d642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status_field</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:36</sys_created_on>
+            <sys_id>f7e02e8893a10b9076ebf61cdd03d643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>intake_year</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:37</sys_created_on>
+            <sys_id>b3e02e8893a10b9076ebf61cdd03d644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>intake_semester</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:37</sys_created_on>
+            <sys_id>7fe02e8893a10b9076ebf61cdd03d644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_agent</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:37</sys_created_on>
+            <sys_id>80f02e8893a10b9076ebf61cdd03d690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicant_user</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:38</sys_created_on>
+            <sys_id>4cf02e8893a10b9076ebf61cdd03d690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>university_email</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:38</sys_created_on>
+            <sys_id>08f02e8893a10b9076ebf61cdd03d691</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id_card_number</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 14:29:38</sys_created_on>
+            <sys_id>d0f02e8893a10b9076ebf61cdd03d692</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920756_univer_0_admission_request" sys_domain="global" view="Default view">8fd11d8093e9c79076ebf61cdd03d65e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 14:29:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1920756_univer_0_admission_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 08:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd11d8093e9c79076ebf61cdd03d65e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1920756_univer_0_admission_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+            <sys_update_name>sys_ui_section_8fd11d8093e9c79076ebf61cdd03d65e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 08:44:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

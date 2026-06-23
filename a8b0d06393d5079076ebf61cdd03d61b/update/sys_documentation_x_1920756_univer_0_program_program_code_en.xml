@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="program_code" label="Program Code" language="en" table="x_1920756_univer_0_program">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>program_code</element>
+            <help/>
+            <hint/>
+            <label>Program Code</label>
+            <language>en</language>
+            <name>x_1920756_univer_0_program</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-12 07:42:37</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Program Code</sys_name>
+            <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+            <sys_update_name>sys_documentation_x_1920756_univer_0_program_program_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-12 07:48:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

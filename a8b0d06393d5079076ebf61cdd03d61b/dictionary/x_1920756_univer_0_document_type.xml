@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="589fb36b931d479076ebf61cdd03d6a0" label="Document Type" max_length="40" name="x_1920756_univer_0_document_type" type="collection">
+        <element label="Display Order" max_length="40" name="display_order" type="integer"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Required" mandatory="true" max_length="40" name="required" type="boolean"/>
+        <element label="Code" mandatory="true" max_length="20" name="code" type="string"/>
+        <element label="Program" mandatory="true" max_length="32" name="program" reference="x_1920756_univer_0_program" type="reference"/>
+        <element label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <index name="index">
+            <element name="program"/>
+        </index>
+    </element>
+</database>

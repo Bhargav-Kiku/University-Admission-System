@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ded3a2cc93a10b9076ebf61cdd03d63c" label="Campus Tour" max_length="40" name="x_1920756_univer_0_campus_tour" type="collection">
+        <element label="Scheduled End" mandatory="true" max_length="40" name="scheduled_end" type="glide_date_time"/>
+        <element label="Scheduled Start" mandatory="true" max_length="40" name="scheduled_start" type="glide_date_time"/>
+        <element display="true" label="Admission Request" mandatory="true" max_length="32" name="admission_request" reference="x_1920756_univer_0_admission_request" type="reference"/>
+        <element label="Tour Guide" mandatory="true" max_length="32" name="tour_guide" reference="sys_user" type="reference"/>
+        <element label="Feedback" max_length="1000" name="feedback" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element default="scheduled" label="Status" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="No Show" sequence="3" value="no_show"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element default="False" label="Attendance Confirmed" max_length="255" name="attendance_confirmed" type="boolean"/>
+        <index name="index">
+            <element name="admission_request"/>
+        </index>
+        <index name="index2">
+            <element name="tour_guide"/>
+        </index>
+    </element>
+</database>
