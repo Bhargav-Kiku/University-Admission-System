@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="University Services">02c89bd393e10fd076ebf61cdd03d64d</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 20:54:20</sys_created_on>
+        <sys_id>b0e85fd393e10fd076ebf61cdd03d645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University Services.catalog_university_services</sys_name>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_university_services">a0e85fd393e10fd076ebf61cdd03d642</sys_portal_page>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_b0e85fd393e10fd076ebf61cdd03d645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 20:54:20</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
