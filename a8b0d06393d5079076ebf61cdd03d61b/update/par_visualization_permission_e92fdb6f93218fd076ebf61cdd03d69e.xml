@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission">
+    <par_visualization_permission action="INSERT_OR_UPDATE">
+        <can_share>true</can_share>
+        <component display_value="Admissions by Program">242f9b2f93218fd076ebf61cdd03d622</component>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_visualization_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 16:00:10</sys_created_on>
+        <sys_id>e92fdb6f93218fd076ebf61cdd03d69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>242f9b2f93218fd076ebf61cdd03d622</sys_name>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>par_visualization_permission_e92fdb6f93218fd076ebf61cdd03d69e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 16:00:10</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <write>true</write>
+    </par_visualization_permission>
+</record_update>

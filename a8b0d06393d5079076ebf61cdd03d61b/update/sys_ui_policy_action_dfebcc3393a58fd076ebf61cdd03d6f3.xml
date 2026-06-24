@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>verified_on</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 19:16:20</sys_created_on>
+        <sys_id>dfebcc3393a58fd076ebf61cdd03d6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>verified_on</sys_name>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dfebcc3393a58fd076ebf61cdd03d6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 19:16:20</sys_updated_on>
+        <table>x_1920756_univer_0_document_checklist</table>
+        <ui_policy display_value="Verification Details Required">2c1ac47f93658fd076ebf61cdd03d674</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=dfebcc3393a58fd076ebf61cdd03d6f3"/>
+</record_update>
