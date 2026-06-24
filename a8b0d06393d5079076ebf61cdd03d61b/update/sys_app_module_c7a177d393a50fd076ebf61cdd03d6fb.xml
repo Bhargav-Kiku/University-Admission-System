@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="University Admission">7e7e497f93d1879076ebf61cdd03d61b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Apply for Admission</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>150</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=387c579b93e10fd076ebf61cdd03d681</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1920756_univer_0.user,x_1920756_univer_0.admin,x_1920756_univer_0.agent</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 22:46:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7a177d393a50fd076ebf61cdd03d6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply for Admission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>sys_app_module_c7a177d393a50fd076ebf61cdd03d6fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 22:46:05</sys_updated_on>
+        <timeline_page/>
+        <title>Apply for Admission</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

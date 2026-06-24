@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Gender">11e12b5393250fd076ebf61cdd03d622</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 22:48:58</sys_created_on>
+        <sys_id>9913b39793a50fd076ebf61cdd03d6b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>question_choice_9913b39793a50fd076ebf61cdd03d6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:18:41</sys_updated_on>
+        <text>Other</text>
+        <value>other</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9913b39793a50fd076ebf61cdd03d6b5"/>
+</record_update>

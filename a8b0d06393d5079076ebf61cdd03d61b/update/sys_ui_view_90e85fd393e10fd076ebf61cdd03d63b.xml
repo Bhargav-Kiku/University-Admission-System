@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_university_services</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 20:54:18</sys_created_on>
+        <sys_id>90e85fd393e10fd076ebf61cdd03d63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University Services View</sys_name>
+        <sys_package display_value="University Admission System" source="x_1920756_univer_0">a8b0d06393d5079076ebf61cdd03d61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="University Admission System">a8b0d06393d5079076ebf61cdd03d61b</sys_scope>
+        <sys_update_name>sys_ui_view_90e85fd393e10fd076ebf61cdd03d63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 20:54:18</sys_updated_on>
+        <title>University Services View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
